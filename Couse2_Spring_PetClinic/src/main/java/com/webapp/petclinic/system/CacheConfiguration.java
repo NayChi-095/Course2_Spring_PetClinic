@@ -31,7 +31,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration(proxyBeanMethods = false)
 @EnableCaching
 class CacheConfiguration {
-
+//test cache
 	@Bean
 	public JCacheManagerCustomizer petclinicCacheConfigurationCustomizer() {
 		return cm -> {
